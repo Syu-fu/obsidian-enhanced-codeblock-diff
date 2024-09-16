@@ -1,0 +1,39 @@
+name: lint
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  contents: "read"
+
+jobs:
+  release:
+    name: "lint"
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+        with:
+          fetch-depth: 0
+
+      - name: Setup Biome CLI
+        uses: biomejs/setup-biome@1cbe33ead22c7a2fded3b52fa2893611c815c9b5 # v2.2.1
+
+      - name: Run Biome
+        run: biome ci main.ts
+
+      - uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b # v4.0.3
+
+      - name: Cache npm directory
+        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-npm-
+
+      - name: Install node modules
+        run: npm ci
+
+      - name: Run tsc
+        run: npx tsc

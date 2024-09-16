@@ -1,0 +1,29 @@
+name: check license
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  license-check:
+    runs-on: ubuntu-latest
+    name: license check
+    steps:
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+
+      - name: Cache npm directory
+        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-npm-
+
+      - name: Install node modules
+        run: npm ci
+
+      - name: Run license check
+        run: npx license-checker --failOn "GPL;GPL-2.0;GPL-3.0;LGPL;LGPL-3.0"
