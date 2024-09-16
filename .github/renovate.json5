@@ -1,0 +1,30 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  automerge: true,
+  extends: [
+    "config:recommended",
+    "config:best-practices",
+    ":disableDependencyDashboard",
+  ],
+  major: {
+    automerge: false,
+  },
+  timezone: "Asia/Tokyo",
+  branchConcurrentLimit: 0,
+  prConcurrentLimit: 0,
+  prHourlyLimit: 0,
+  packageRules: [
+    {
+      matchManagers: ["github-actions"],
+      versioning: "semver",
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "npm deps"
+    }
+  ],
+}
