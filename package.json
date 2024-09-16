@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-enhanced-codeblock-diff",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Enables diff display with syntax highlighting in Obsidian code blocks for efficient code comparison and review.",
 	"main": "main.js",
 	"scripts": {
