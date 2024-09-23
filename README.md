@@ -1,8 +1,12 @@
 # Obsidian enhanced codeblock diff
 
+[![release](https://img.shields.io/github/release/Syu-fu/obsidian-enhanced-codeblock-diff.svg)](https://github.com/Syu-fu/obsidian-enhanced-codeblock-diff/releases/latest)
+[![lint](https://github.com/Syu-fu/obsidian-enhanced-codeblock-diff/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/Syu-fu/obsidian-enhanced-codeblock-diff/actions/workflows/lint.yml)
+[![check license](https://github.com/Syu-fu/obsidian-enhanced-codeblock-diff/actions/workflows/license-check.yml/badge.svg?branch=main)](https://github.com/Syu-fu/obsidian-enhanced-codeblock-diff/actions/workflows/license-check.yml)
+
 This is an [Obsidian](https://obsidian.md) plugin which can enables diff display with syntax highlighting in Obsidian code blocks for efficient code comparison and review.
 
-![codeblock](https://private-user-images.githubusercontent.com/61235023/367789628-502bcfa1-c044-4ae9-a2c9-63c5433a5a93.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY0OTU4OTMsIm5iZiI6MTcyNjQ5NTU5MywicGF0aCI6Ii82MTIzNTAyMy8zNjc3ODk2MjgtNTAyYmNmYTEtYzA0NC00YWU5LWEyYzktNjNjNTQzM2E1YTkzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTE2VDE0MDYzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJlOWUwM2UzYzZmYzhhNDk5OGFlOTg4NTJkNTQ0YjhkYjY2N2FjMzNiZWNhODEzZjFlNmY0MWE0YjFhZTY1ZTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.MIvRPv0QCB2XMvD8SgXu7RhsY0ONlTlEYjoW3ggMru4)
+![codeblock](https://github.com/user-attachments/assets/502bcfa1-c044-4ae9-a2c9-63c5433a5a93)
 
 ## Examples
 
@@ -20,7 +24,7 @@ This is an [Obsidian](https://obsidian.md) plugin which can enables diff display
 
 ↓
 
-![codeblock](https://private-user-images.githubusercontent.com/61235023/367789628-502bcfa1-c044-4ae9-a2c9-63c5433a5a93.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY0OTU4OTMsIm5iZiI6MTcyNjQ5NTU5MywicGF0aCI6Ii82MTIzNTAyMy8zNjc3ODk2MjgtNTAyYmNmYTEtYzA0NC00YWU5LWEyYzktNjNjNTQzM2E1YTkzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTE2VDE0MDYzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJlOWUwM2UzYzZmYzhhNDk5OGFlOTg4NTJkNTQ0YjhkYjY2N2FjMzNiZWNhODEzZjFlNmY0MWE0YjFhZTY1ZTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.MIvRPv0QCB2XMvD8SgXu7RhsY0ONlTlEYjoW3ggMru4)
+![codeblock](https://github.com/user-attachments/assets/502bcfa1-c044-4ae9-a2c9-63c5433a5a93)
 
 ## Configure
 
