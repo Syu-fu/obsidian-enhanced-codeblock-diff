@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Biome CLI
-        uses: biomejs/setup-biome@c016c38f26f2c4a6eb3662679143614a254263fd # v2.3.0
+        uses: biomejs/setup-biome@fcb95f3805d3a2fac0ca09635a90a9ac2b38188e # v2.4.0
 
       - name: Run Biome
         run: biome ci main.ts
