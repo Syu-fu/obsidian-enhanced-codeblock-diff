@@ -24,7 +24,7 @@
 		"license-checker": "25.0.1",
 		"obsidian": "latest",
 		"tslib": "2.8.1",
-		"typescript": "5.8.2"
+		"typescript": "5.8.3"
 	},
 	"dependencies": {
 		"@steelydylan/prism-diff-highlight": "^1.0.4",
