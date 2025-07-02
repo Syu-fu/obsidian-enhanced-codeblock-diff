@@ -17,7 +17,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@types/jest": "29.5.14",
-		"@types/node": "22.15.33",
+		"@types/node": "22.16.0",
 		"@types/prismjs": "1.26.5",
 		"builtin-modules": "4.0.0",
 		"esbuild": "0.25.5",
