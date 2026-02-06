@@ -15,7 +15,7 @@
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
+		"@biomejs/biome": "2.3.14",
 		"@types/jest": "29.5.14",
 		"@types/node": "22.19.8",
 		"@types/prismjs": "1.26.5",
