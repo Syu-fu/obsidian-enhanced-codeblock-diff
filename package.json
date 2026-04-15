@@ -19,7 +19,7 @@
 		"@types/jest": "29.5.14",
 		"@types/node": "22.19.17",
 		"@types/prismjs": "1.26.6",
-		"builtin-modules": "4.0.0",
+		"builtin-modules": "5.1.0",
 		"esbuild": "0.28.0",
 		"license-checker": "25.0.1",
 		"obsidian": "latest",
